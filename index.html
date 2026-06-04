@@ -3,107 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start The Actions To Soar (STATS)</title>
-    <style>
-        /* CSS Styling */
-        :root {
-            --primary-color: #0d3b66; /* Deep blue */
-            --accent-color: #f4d35e; /* Warm gold/yellow */
-            --text-color: #333333;
-            --bg-color: #fafafa;
-        }
-
-        body {
-            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Header Section */
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            letter-spacing: 1px;
-        }
-
-        /* Slogan Section */
-        .slogan {
-            background-color: var(--accent-color);
-            color: #1a1a1a;
-            text-align: center;
-            padding: 2rem 1rem;
-            font-size: 1.25rem;
-            font-style: italic;
-            font-weight: 600;
-        }
-
-        .slogan p {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Main Content Container */
-        .container {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 0 1.5rem;
-        }
-
-        /* Bio Section */
-        .bio {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            margin-bottom: 3rem;
-        }
-
-        .bio p {
-            margin-bottom: 1.5rem;
-        }
-
-        /* Image Gallery */
-        .gallery {
-            display: flex;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-bottom: 3rem;
-        }
-
-        .gallery img {
-            max-width: 100%;
-            width: 400px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            object-fit: cover;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 2rem 1rem;
-            background-color: #eeeeee;
-            font-size: 0.9rem;
-            color: #666;
-        }
-    </style>
+    <title>Home | Start The Actions To Soar</title>
+    <!-- This links to your new color and design file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </div>
+        <!-- Replace the # with your PayPal/Stripe link -->
+        <a href="#" class="donate-btn">Donate</a>
+    </nav>
+
     <header>
-        <h1>Start The Actions To Soar (STATS)</h1>
+        <div class="logo-container">
+            <!-- Upload your logo to GitHub and replace logo.png with your file name -->
+            <img src="logo.png" alt="STATS Logo">
+        </div>
+        <h1>Start The Actions To Soar</h1>
     </header>
 
     <section class="slogan">
@@ -111,22 +31,18 @@
     </section>
 
     <div class="container">
-        <section class="bio">
-            <p><strong>Start The Actions To Soar (STATS)</strong> is a 501(c)(3) nonprofit organization dedicated to empowering aspiring artists and creative professionals, especially those from underserved and underrepresented communities. Through mentorship, education, creative workforce development, music production, and career pathway opportunities, STATS helps individuals overcome barriers and transform their talents into meaningful futures.</p>
-            
-            <p>Founded by musician, songwriter, producer, and author <strong>Lucius Hoskins</strong>, STATS is committed to creating access, exposure, and opportunity for the next generation of creatives. We believe talent is universal, but opportunity is not—and our mission is to ensure that every aspiring artist has the chance to soar.</p>
-            
-            <p>Together, we are inspiring dreams, building confidence, and creating pathways to success through the arts.</p>
-        </section>
-
-        <section class="gallery">
-            <!-- Replace image1.jpg and image2.jpg with your actual image file names once uploaded -->
-            <img src="image1.jpg" alt="Mentorship and education at STATS">
-            <img src="image2.jpg" alt="Creative workforce development">
+        <section class="card" style="text-align: center;">
+            <h2>Welcome to STATS</h2>
+            <p>We believe talent is universal, but opportunity is not. Explore our site to learn how we create access, exposure, and opportunity for the next generation of creatives.</p>
         </section>
     </div>
 
     <footer>
+        <div class="contact-info">
+            <p><strong>Start The Actions To Soar</strong></p>
+            <p>13121 Louetta Rd<br>Suite 340<br>Cypress, TX 77429</p>
+            <p><a href="tel:3465501628">(346) 550-1628</a></p>
+        </div>
         <p>&copy; 2026 Start The Actions To Soar (STATS). A 501(c)(3) Nonprofit Organization.</p>
     </footer>
 

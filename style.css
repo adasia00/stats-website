@@ -1,9 +1,7 @@
 /* style.css */
 :root {
-    /* UPDATE THESE COLORS TO MATCH YOUR LOGO */
-    /* You can use hex codes (like #0d3b66) or color names (like blue) */
-    --primary-color: #0d3b66; 
-    --accent-color: #f4d35e; 
+    --primary-color: #0B415A; /* Deep Teal */
+    --accent-color: #7BC143; /* Lime Green */
     --text-color: #333333;
     --bg-color: #fafafa;
 }

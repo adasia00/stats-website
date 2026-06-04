@@ -1,0 +1,117 @@
+/* style.css */
+:root {
+    /* UPDATE THESE COLORS TO MATCH YOUR LOGO */
+    /* You can use hex codes (like #0d3b66) or color names (like blue) */
+    --primary-color: #0d3b66; 
+    --accent-color: #f4d35e; 
+    --text-color: #333333;
+    --bg-color: #fafafa;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-right: 1.5rem;
+}
+
+.donate-btn {
+    background-color: var(--accent-color);
+    color: #1a1a1a;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Header & Logos */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 250px; /* Adjust this to fit your logo size */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Typography & Layout */
+.slogan {
+    background-color: var(--accent-color);
+    color: #1a1a1a;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 3rem;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    width: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Footer & Contact */
+footer {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #eeeeee;
+    color: #444;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+    font-style: normal;
+}
+.contact-info a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
